@@ -1,0 +1,153 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: #181818;
+    font-family: sans-serif;
+}
+
+/* NAV BAR */
+
+.nav{
+    display: flex;
+    border: 2px solid #212121;
+    grid-column: span 3;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    background-color: #212121;
+}
+
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.leet{
+    background-color: #FFA116;
+    color: black;
+}
+
+.force{
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+.link{
+    background-color: #0A66C2;
+    color: #FFFFFF;
+}
+
+/* SKILLS */
+
+.skills{
+    display: flex;
+    grid-column: span 2;
+    border: 2px solid #212121;
+    margin-top: 10px;
+    border-radius: 50px;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    grid-row: 2/4;
+}
+
+.skills .h{
+    display: inline-block;
+    color: #FF5E7E;
+    padding-left: 30px;
+}
+
+.skills h2{
+    display: inline-block;
+    color:  #E0F7FA;
+}
+
+.p{
+    padding-right: 30px;
+}
+
+/* TRACK */
+
+.track{
+    display: flex;
+    grid-row: span 8;
+    flex-direction: column;
+    border: 2px solid #212121;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    color: #FF5E7E;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.track h2{
+    color: #E0F7FA;
+}
+
+/* FORM */
+
+.form{
+    display: flex;
+    grid-column: span 2;
+    grid-row: span 6;
+    flex-direction: column;
+    border: 2px solid #212121;
+    margin-top: 10px;
+    border-radius: 50px;
+    color: #FF5E7E;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.form .inp{
+    background-color: #E0F7FA;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    margin: 10px;
+    height: 30px;
+    width: 500px;
+}
+
+.form button{
+    background-color: #E0F7FA;
+    color: #181818;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: #FFFFFF;
+    color: #181818;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.form .inp:hover{
+    background-color: #FFFFFF;
+    color: #181818;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    color: #181818;
+    transition: background-color 0.5s, color 0.5s;
+}
+

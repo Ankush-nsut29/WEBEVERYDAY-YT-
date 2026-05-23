@@ -1,0 +1,87 @@
+html{
+    background-color: #181818;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1100px;
+}
+
+.nav a{
+    display: block;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.logo{
+    width: 200px;
+    background-color: transparent;
+    mix-blend-mode: screen; 
+}
+
+.top img{
+    width: 200px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    
+}
+
+.top h1{
+    color: whitesmoke;
+}
+
+.top h2{
+    color: whitesmoke;
+    padding-right: 10px;
+}
+
+h2{
+    display: inline;
+}
+
+.imgs{
+    margin-top: 10px;
+    display: flex;
+    gap: 160px;
+}
+
+.imgs img{
+    border-radius: 20px;
+}
+
+.say{
+    display: flex;
+    color: whitesmoke;
+    gap: 520px;
+    padding-left: 120px;
+}
+
+.say h3{
+    display: block;
+    background-color: black;
+    border: 1px solid whitesmoke;
+}
+
+button:hover, .nav a:hover {
+    background-color: whitesmoke;
+    color: #181818;
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}

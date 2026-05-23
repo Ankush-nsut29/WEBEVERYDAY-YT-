@@ -1,0 +1,88 @@
+html{
+    background-color: #181818;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.z{
+    color: #FF5E7E;
+    margin-bottom: 30px;
+}
+
+.YO{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+
+.YO .a{
+    display: flex;
+    border: 2px solid #FF5E7E;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    color: #e0f7fa;
+}
+
+.YO .a h2{
+    color: greenyellow;
+}
+
+.FORM{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+.FORM .text{
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.FORM .submit{
+    width: 100px;
+    border-radius: 100%;
+    background-color: #e0f7fa;
+    color: #FF5E7E;
+}
+
+::placeholder{
+    color: #FF5E7E;
+}
+
+.FORM .text:hover {
+    background-color: #FF5E7E;
+    color: #e0f7fa;
+    transition: 0.3s;
+}
+
+.FORM .text:hover::placeholder {
+    color: #e0f7fa; 
+    transition: 0.3s; 
+}
+
+.FORM .submit:hover {
+    background-color: #FF5E7E;
+    color: #e0f7fa;
+    transition: 0.3s;
+}
+
+/* Styles for the post result page */
+.post-message {
+    margin-top: 50px; /* Add some space from the top */
+    font-size: 2.5em; /* Make the message stand out */
+}
