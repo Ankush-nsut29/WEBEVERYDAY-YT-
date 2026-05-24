@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 d={"police": "100", "fire":"101" , "ambulance":"102" , "general":"112", "women": "14490" , "dog" : "me"}
 
-@app.route("/" , methods={"GET","POST"})
+@app.route("/" , methods=["GET","POST"])
 def home():
     if request.method=="POST":
         key=request.form["nm"]
