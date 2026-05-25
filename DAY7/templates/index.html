@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLASK JUDGES YOU</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>LET ME JUDGE YOU</h1>
+    <form action="#" method="post">
+      <div class="type">
+        <h2>WHAT WAS THE DIFFICULTY</h2>
+        <select name="diff">
+          <option value="e">EASY</option>
+          <option value="m">MEDIUM</option>
+          <option value="h">HARD</option>
+        </select>
+      </div>
+      <div class="time">
+        <h2>HOW MUCH TIME YOU TOOK</h2>
+        <select name="time">
+          <option value="10">10 MINUTES</option>
+          <option value="20">20 MINUTES</option>
+          <option value="30">30 MINUTES</option>
+          <option value="40">40 MINUTES</option>
+          <option value="50">50 MINUTES</option>
+          <option value="60">60 MINUTES</option>
+          <option value="more">MORE THAN AN HOUR</option>
+        </select>
+      </div>
+      <div class="hints">
+        <input
+          type="number"
+          name="hint"
+          placeholder="HOW MANY HINTS YOU TOOK"
+        />
+      </div>
+      <input type="SUBMIT" class="btn">
+    </form>
+</body>
+</html>
+

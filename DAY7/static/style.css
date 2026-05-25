@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    background-color: #050814 ;
+    color: #9CA3AF;
+    font-family: "Trebuchet MS", "Comic Sans MS", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #00E5FF;
+    font-family: Comic Sans MS;
+    margin-top: 80px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    border: 5px solid #00D4F0;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 5px 5px 0px #00D4F0;
+}
+
+form .type{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+form .type h1{
+    font-family: Trebuchet MS;
+    width: 200px;
+}
+
+form .type select{
+    border: 2.5px solid #00E5FF;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    background-color: #050814;
+    color: #00E5FF;
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+form .time{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+form .time h1{
+    font-family: Trebuchet MS;
+    width: 200px;
+}
+
+form .time select{
+    border: 2.5px solid #00E5FF;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    background-color: #050814;
+    color: #00E5FF;
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+form .hints input{
+    border: 2.5px solid #00E5FF ;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    background-color: #050814;
+    color: #00E5FF;
+    margin: 20px;
+    width: 93%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-shadow: 3px 3px 0px #00D4F0;
+}
+
+
+form .btn{
+    border: 2.5px solid #00E5FF ;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    background-color: #050814;
+    color: #00E5FF;
+    margin:20px;
+    width: 200px;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-shadow: 3px 3px 0px #00D4F0;
+}
+
+form .type select:hover {
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .time select:hover {
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .hints input:hover {
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    box-shadow: 4px 4px 0px #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .btn:hover {
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    box-shadow: 4px 4px 0px #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .btn:active {
+    box-shadow: 1px 1px 0px #ADFF2F;
+    transform: translate(2px, 2px);
+}
