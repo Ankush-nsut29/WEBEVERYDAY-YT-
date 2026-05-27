@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background-color: #001a00;
+    font-family: "Comic Sans MS";
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: greenyellow;
+}
+
+form{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    border: 3px solid greenyellow;
+    box-shadow: 8px 8px 0px greenyellow;
+}
+
+form .text{
+    width: 1000px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 2px solid greenyellow;
+    box-shadow: 4px 4px 0 greenyellow;
+    text-align: center;
+    background-color: limegreen;
+}
+
+form .btn{
+    margin-bottom: 50px;
+    margin-left: 50;
+    margin-right: 50;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    box-shadow: 4px 4px 0 greenyellow;
+    background-color: limegreen;
+    color: #001a00;
+    font-family: "Comic Sans MS";
+    border-radius: 20px;
+}
+
+::placeholder{
+    color: #001a00;
+    font-family: "Comic Sans MS";
+}
+
+form .btn:hover {
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    box-shadow: 4px 4px 0px #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .btn:active {
+    box-shadow: 1px 1px 0px #ADFF2F;
+    transform: translate(2px, 2px);
+}
+
+form.text:hover{
+    border-color: #ADFF2F;
+    color: #ADFF2F;
+    box-shadow: 4px 4px 0px #ADFF2F;
+    transform: translate(-1px, -1px);
+}
+
+form .text:active{
+    box-shadow: 1px 1px 0px #ADFF2F;
+    transform: translate(2px, 2px);
+}
