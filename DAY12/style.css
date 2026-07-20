@@ -1,0 +1,60 @@
+html{
+    background-color: blanchedalmond;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 4px solid lightgreen;
+    border-radius: 10px;
+    margin: 100px;
+    background-color: whitesmoke;
+}
+
+.card img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid lightgreen;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.p{
+    background-color: rgb(51, 201, 51);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+.m{
+    background-color: rgb(236, 74, 74);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+#age{
+    display: block;
+    padding: 5px;
+    border: 1px solid lightgreen;
+    width: 270px;
+    text-align: center;
+}
